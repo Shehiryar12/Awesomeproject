@@ -50,25 +50,43 @@
 //   })
 
 import {Text, View, StyleSheet} from 'react-native';
+import Name from './src/UI';
+import Ali from './src/UI';
+import Razim from './src/components';
+import Btns from './src/Buttons';
+
+
+
+
 
 const App = () => {
   return (
-    <View style={styles.main}>
+    <Ali/>,
+    <Razim />,
+    <Btns />
 
-      <View style={styles.box1}>
-
-         <View style={styles.InnerBox1}><Text>Ahmed</Text> </View>
-         <View style={styles.InnerBox2}><Text>Asfand</Text> </View>
-        <View style={styles.InnerBox3}><Text>Shahzaib</Text> </View>
-
-      </View>
-    <View style={styles.box2}>
-        <View style={styles.InnerBox4}><Text>Shehiryar</Text> </View>
-        <View style={styles.InnerBox5}><Text>Zahid</Text> </View>
-        <View style={styles.InnerBox6}><Text>Ali</Text> </View>
-    </View>
-      <View style={styles.box4}></View>
-    </View>
+    //       <Text>Ahmed</Text>
+    //     </View>
+    //     <View style={styles.InnerBox2}>
+    //       <Text>Asfand</Text>
+    //     </View>
+    //     <View style={styles.InnerBox3}>
+    //       <Text>Shahzaib</Text>
+    //     </View>
+    //   </View>
+    //   <View style={styles.box2}>
+    //     <View style={styles.InnerBox4}>
+    //       <Text>Shehiryar</Text>
+    //     </View>
+    //     <View style={styles.InnerBox5}>
+    //       <Text>Zahid</Text>
+    //     </View>
+    //     <View style={styles.InnerBox6}>
+    //       <Text>Ali</Text>
+    //     </View>
+    //   </View>
+    //   {/* <View style={styles.box4}></View>  */}
+    // </View>
   );
 };
 
@@ -78,65 +96,63 @@ const styles = StyleSheet.create({
   },
   box1: {
     flex: 1,
-       backgroundColor:"green",
-    
+    backgroundColor: 'green',
   },
-  
+
   box2: {
     flex: 1,
     backgroundColor: 'yellow',
   },
 
-   InnerBox1: {
-      flex: 1,
-      backgroundColor: 'red',
-      margin:20,
-      paddingTop:20,
-      paddingLeft:20,
-      paddingbottom:20
+  InnerBox1: {
+    flex: 1,
+    backgroundColor: 'red',
+    margin: 20,
+    paddingTop: 20,
+    paddingLeft: 20,
+    paddingbottom: 20,
 
     //   marginRight:20,
     //   marginTop:30,
     //   bottom:50
- },
+  },
 
- InnerBox2: {
-      flex: 1,
-      backgroundColor: 'grey',
-       margin:20,
-       paddingTop:20,
-       paddingLeft:20,
- },
- 
+  InnerBox2: {
+    flex: 1,
+    backgroundColor: 'grey',
+    margin: 20,
+    paddingTop: 20,
+    paddingLeft: 20,
+  },
+
   InnerBox3: {
-      flex: 1,
-      backgroundColor: 'pink',
-      margin:20,
-      paddingTop:20,
-      paddingLeft:20,
- },
- InnerBox4: {
-      flex: 1,
-      backgroundColor: 'blue',
-      margin:20,
-      paddingTop:20,
-      paddingLeft:20,
- },
+    flex: 1,
+    backgroundColor: 'pink',
+    margin: 20,
+    paddingTop: 20,
+    paddingLeft: 20,
+  },
+  InnerBox4: {
+    flex: 1,
+    backgroundColor: 'blue',
+    margin: 20,
+    paddingTop: 20,
+    paddingLeft: 20,
+  },
   InnerBox5: {
-      flex: 1,
-      backgroundColor: 'indigo',
-      margin:20,
-      paddingTop:20,
-      paddingLeft:20,
- },
+    flex: 1,
+    backgroundColor: 'indigo',
+    margin: 20,
+    paddingTop: 20,
+    paddingLeft: 20,
+  },
   InnerBox6: {
-      flex: 1,
-      backgroundColor: 'saddlebrown',
-      margin:20,
-      paddingTop:20,
-      paddingLeft:20,
- }
-}
-)
+    flex: 1,
+    backgroundColor: 'saddlebrown',
+    margin: 20,
+    paddingTop: 20,
+    paddingLeft: 20,
+  },
+});
 
 export default App;
