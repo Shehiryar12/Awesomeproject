@@ -56,6 +56,8 @@ import Name from './src/UI';
 import Btns from './src/Buttons';
  import Hunain from './src/UI';
   import Raza from './src/UI';
+  import Person from './src/Textinput';
+
 
 
 
@@ -65,8 +67,8 @@ import Btns from './src/Buttons';
 const App = () => {
   return (
     //  <Ali/>
-       <Btns />
-
+      //  <Btns />
+       <Person />
     //       <Text>Ahmed</Text>
     //     </View>
     //     <View style={styles.InnerBox2}>
