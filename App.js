@@ -51,9 +51,12 @@
 
 import {Text, View, StyleSheet} from 'react-native';
 import Name from './src/UI';
-import Ali from './src/UI';
-import Razim from './src/components';
+ import Ali from './src/UI';
+ import Asfi from './src/components';
 import Btns from './src/Buttons';
+ import Hunain from './src/UI';
+  import Raza from './src/UI';
+
 
 
 
@@ -61,9 +64,8 @@ import Btns from './src/Buttons';
 
 const App = () => {
   return (
-    <Ali/>,
-    <Razim />,
-    <Btns />
+    //  <Ali/>
+       <Btns />
 
     //       <Text>Ahmed</Text>
     //     </View>
@@ -88,7 +90,7 @@ const App = () => {
     //   {/* <View style={styles.box4}></View>  */}
     // </View>
   );
-};
+  };
 
 const styles = StyleSheet.create({
   main: {

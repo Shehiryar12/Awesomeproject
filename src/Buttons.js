@@ -4,10 +4,7 @@
 
  const Btns= ()=>{
   
-    // const data=1000 
-    const Press= ()=>{
-         console.log("warning")
-    }
+    // conbst data=1000 
 
     return(
     //     <View>
@@ -16,8 +13,8 @@
     //     <Button title="Click" color="blue" onPress={()=>Press("I am fine")}></Button>
     //   </View>
 
-    <View>
-           <Text>Buttons</Text>  
+    <View style={{backgroundColor:"black",flex:1}}>
+           <Text>Button</Text>  
 
            <View style={{padding:20}}>
               <Button title="PRESS"></Button>

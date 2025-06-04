@@ -18,20 +18,12 @@ const Ali = () => {
         <Button title="submit" color="green"></Button>
       </View>
     
-      <Ahmed />
+
 
     </View>
   );
 };
 
-const Ahmed = () => {
-    return(
- 
-      <View>
-        <Text style={{fontSize:30,color:'white'}}>DATA:-</Text>
-            <Text style={{fontSize:20 ,color:'white'}}>Age:22</Text>
-      </View>       
-    );
-};
+
 export default Ali;
 

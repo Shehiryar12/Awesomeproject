@@ -1,12 +1,12 @@
  import React from 'react';
 
  import  { 
-      Button,
+  
       Text,
       View
   } from "react-native";
 
-const Razim= () =>{
+const Raza= () =>{
     return(
          <View>
             <Text style={{fontSize:30}}>Compenents</Text>
@@ -15,12 +15,12 @@ const Razim= () =>{
             <Text style={{fontSize:20}}>Age:23</Text>
             <Text style={{fontSize:20}}>School:RPS</Text>
 
-    
          </View>
 
        
     );
 
+
 }  
 
-export default Razim;
+export default Raza;
