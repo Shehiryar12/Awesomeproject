@@ -24,7 +24,7 @@ export default function Person() {
         // numberOfLines={3}
         // maxLength={5}
         returnKeyLabel={'search'}
-        // onSubmitEditing={() => console.log('Submitted')} 
+        // onSubmitEditing={() => console.log('Submit')} 
         autoFocus={false}
       />
 
