@@ -57,6 +57,8 @@ import Btns from './src/Buttons';
  import Hunain from './src/UI';
   import Raza from './src/UI';
   import Person from './src/Textinput';
+    import Men from './src/Textinputtwo';
+
 
 
 
@@ -68,8 +70,8 @@ const App = () => {
   return (
     //  <Ali/>
       //  <Btns />
-       <Person />
-    //       <Text>Ahmed</Text>
+        // <Person />
+          // <Text>Ahmed</Text>
     //     </View>
     //     <View style={styles.InnerBox2}>
     //       <Text>Asfand</Text>
@@ -91,6 +93,7 @@ const App = () => {
     //   </View>
     //   {/* <View style={styles.box4}></View>  */}
     // </View>
+     <Men />
   );
   };
 

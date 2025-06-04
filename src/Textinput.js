@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import { Text, View, TextInput, StyleSheet } from 'react-native';
 
 export default function Person() {
@@ -23,9 +23,10 @@ export default function Person() {
         // multiline={true}
         // numberOfLines={3}
         // maxLength={5}
-        returnKeyLabel={'search'}
+        // returnKeyLabel={'search'}
         // onSubmitEditing={() => console.log('Submit')} 
-        autoFocus={false}
+        autoFocus={true}
+       
       />
 
     </View>
