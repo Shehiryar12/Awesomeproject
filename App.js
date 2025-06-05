@@ -58,6 +58,9 @@ import Btns from './src/Buttons';
   import Raza from './src/UI';
   import Person from './src/Textinput';
     import Men from './src/Textinputtwo';
+    import Hello from './src/State';
+
+
 
 
 
@@ -93,7 +96,9 @@ const App = () => {
     //   </View>
     //   {/* <View style={styles.box4}></View>  */}
     // </View>
-     <Men />
+  //  <Men />
+      // <Demo />
+      <Hello />
   );
   };
 

@@ -1,7 +1,18 @@
- import React from "react";
-import { View, Text, TextInput,StyleSheet} from "react-native";
+ import React, {useState} from "react";
+import { View, Text, TextInput,Alert,StyleSheet} from "react-native";
 
  export default function Men(){
+
+  const [inputText, setInputText] = useState("");
+
+  const input=(check)=>{
+setInputText(check);
+  }
+
+  const submitting=()=>{
+    Alert.alert('submit', inputText)
+  }
+console.log('@@@@acecj',inputText)
 
    return(
     <View>
@@ -10,13 +21,16 @@ import { View, Text, TextInput,StyleSheet} from "react-native";
         placeholder="Type Here"
         placeholderTextColor={"red"}
         autoCapitalize="words"
+        onChangeText={r=>input(r)}
         // editable={false}
         secureTextEntry={true}
         // maxLength={4}
-           multiline={true}
+           multiline={false}
            numberOfLines={3}  
            autoFocus={true} 
            blurOnSubmit={true}     
+           onSubmitEditing={submitting}
+           value={inputText} 
         />
         <Text>How are you</Text>  
 
