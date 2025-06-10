@@ -6,13 +6,14 @@ export default function Person() {
 
   return (
     <View style={{ justifyContent: 'center' }}>
+      <Text>{text}</Text>
       <TextInput
         keyboardType={'name-phone-pad'}
         style={style.inputBox}
         value={text}
-        onChangeText={txt => {
-          // console.log(txt);
-          setText(txt);
+        onChangeText={e => {
+          console.log(e);
+          setText(e);
         }}
         placeholder="Enter name"
         placeholderTextColor={"green"}
