@@ -50,15 +50,23 @@
 //   })
 
 import {Text, View, StyleSheet} from 'react-native';
-import Name from './src/UI';
- import Ali from './src/UI';
- import Asfi from './src/components';
-import Btns from './src/Buttons';
- import Hunain from './src/UI';
-  import Raza from './src/UI';
-  import Person from './src/Textinput';
-    import Men from './src/Textinputtwo';
-    import Hello from './src/State';
+
+    import Hero from './src/UseState';
+    import Programs from './src/mobile';
+import Hello from './src/State';
+import CountState from './src/CountState';
+import NameState from './src/NameState';
+import ErrorState from './src/ErrorState';
+import BooleanState from './src/BooleanState';
+import DarkState from './src/DarkState';
+import Person from './src/Textinput';
+import Program from './src/Program';
+import Name from './src/Props';
+import One from './src/Propstwo';
+import Laptops from './src/mobile';
+
+
+
 
 
 
@@ -71,34 +79,8 @@ import Btns from './src/Buttons';
 
 const App = () => {
   return (
-    //  <Ali/>
-      //  <Btns />
-        // <Person />
-          // <Text>Ahmed</Text>
-    //     </View>
-    //     <View style={styles.InnerBox2}>
-    //       <Text>Asfand</Text>
-    //     </View>
-    //     <View style={styles.InnerBox3}>
-    //       <Text>Shahzaib</Text>
-    //     </View>
-    //   </View>
-    //   <View style={styles.box2}>
-    //     <View style={styles.InnerBox4}>
-    //       <Text>Shehiryar</Text>
-    //     </View>
-    //     <View style={styles.InnerBox5}>
-    //       <Text>Zahid</Text>
-    //     </View>
-    //     <View style={styles.InnerBox6}>
-    //       <Text>Ali</Text>
-    //     </View>
-    //   </View>
-    //   {/* <View style={styles.box4}></View>  */}
-    // </View>
-  //  <Men />
-      // <Demo />
-      <Hello />
+    <One/>
+    
   );
   };
 
