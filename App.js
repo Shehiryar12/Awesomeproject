@@ -64,6 +64,10 @@ import Program from './src/Program';
 import Name from './src/Props';
 import One from './src/Propstwo';
 import Laptops from './src/mobile';
+import LearnTextComponent from './src/LearnTextComponent';
+import LearnImages from './LearnImages';
+import Welcome from './src/Testtextinput';
+import Add from './src/TestuseState';
 
 
 
@@ -79,8 +83,8 @@ import Laptops from './src/mobile';
 
 const App = () => {
   return (
-    <One/>
-    
+
+    <Add/>
   );
   };
 

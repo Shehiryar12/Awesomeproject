@@ -6,7 +6,7 @@ export default function LearnImages() {
    
       <View>
 
-     <ScrollView  >
+     <ScrollView  showsVerticalScrollIndicator={false} >
       <Image
          style={{width:500,height:300}}
         source={require('./src/images/light.gif')}
