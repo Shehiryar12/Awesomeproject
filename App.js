@@ -68,6 +68,8 @@ import LearnTextComponent from './src/LearnTextComponent';
 import LearnImages from './LearnImages';
 import Welcome from './src/Testtextinput';
 import Add from './src/TestuseState';
+import Testtextiputtwo from './src/Testtextinputtwo';
+import Testtextinputtwo from './src/Testtextinputtwo';
 
 
 
@@ -84,7 +86,7 @@ import Add from './src/TestuseState';
 const App = () => {
   return (
 
-    <Add/>
+<Testtextinputtwo/>
   );
   };
 
