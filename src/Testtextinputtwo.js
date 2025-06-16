@@ -53,7 +53,7 @@ const Testtextinputtwo = () => {
    
       />
 
-      <Button  title='Submit' style={styles.button} onPress={touch}/>
+      <Button  title='Submit' style={styles.button} onPress={touch} />
     </View>
   )
 }

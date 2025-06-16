@@ -49,7 +49,7 @@
 //     }
 //   })
 
-import {Text, View, StyleSheet} from 'react-native';
+import {Text, View, StyleSheet, FlatList} from 'react-native';
 
     import Hero from './src/UseState';
     import Programs from './src/mobile';
@@ -70,6 +70,11 @@ import Welcome from './src/Testtextinput';
 import Add from './src/TestuseState';
 import Testtextiputtwo from './src/Testtextinputtwo';
 import Testtextinputtwo from './src/Testtextinputtwo';
+import FlatlistDemo from './src/Flatlist';
+import User from './src/Flatlist';
+import Screen from './src/flatlistscreen';
+import practicescreen from './src/Practicescreen';
+import Practicescreen from './src/Practicescreen';
 
 
 
@@ -85,8 +90,8 @@ import Testtextinputtwo from './src/Testtextinputtwo';
 
 const App = () => {
   return (
-
-<Testtextinputtwo/>
+     
+  <Practicescreen/>
   );
   };
 
