@@ -1,31 +1,26 @@
- import React, { useState } from "react";
- 
- import { View,Text, Button } from "react-native";
+import { Button, StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+import Sent from './Sent'
 
- const One = () => {
-
-    const[name,SetName]=useState('shahnawaz')
-   
-    return(
-       
-        <View>
-                   <Text  style={{fontSize:23, backgroundColor:"green"}}>Shehiryar</Text>
-                   <Two username={name} />
-                   <Button title="Submitted" onPress={()=>SetName('Taha')}/>
-        </View>
-    );
- };
+const Propstwo = () => {
+    const name="ali"
+  return (
+    <View>
+      <Text>parent  component</Text>
+      <Sent name={"ali"} fatherName={" asad"} lastName={" ejaz"}/> 
+    
+      
+    </View>
+  )
+}
 
 
- const Two = (props) => {
 
-    console.log(props)
-    return(
-       
-        <View>
-                   <Text style={{fontSize:23,backgroundColor:'red' }}>{props.username}</Text>
-        </View>
-    );
- };
+export default Propstwo
 
- export default One; 
+const styles = StyleSheet.create({
+
+    text:{
+        color:"red"
+    }
+})

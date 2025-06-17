@@ -49,7 +49,7 @@
 //     }
 //   })
 
-import {Text, View, StyleSheet, FlatList} from 'react-native';
+import {Text, View, StyleSheet, FlatList, Button} from 'react-native';
 
     import Hero from './src/UseState';
     import Programs from './src/mobile';
@@ -77,14 +77,10 @@ import practicescreen from './src/Practicescreen';
 import Practicescreen from './src/Practicescreen';
 import TouchableOpacity from './src/TouchableOpacity';
 import TouchableComp from './src/TouchableOpacity';
-
-
-
-
-
-
-
-
+import CustomTextInput from './src/CustomTextInput';
+import { watchFolders } from './metro.config';
+import Propstwo from './src/Propstwo';
+import MyButton from './src/MyButton';
 
 
 
@@ -92,10 +88,20 @@ import TouchableComp from './src/TouchableOpacity';
 
 const App = () => {
   return (
-    
- <TouchableComp/>
+  
+//  <View>
+//   <CustomTextInput placeholder={"Enter your first name."} keyboardType={'default'} autoCapitalize={"sentences"}/>
+// <CustomTextInput placeholder={"Enter your CNIC."} keyboardType={'numeric'} />
+// <CustomTextInput placeholder={"Enter your email-address name."} keyboardType={"email-address"} autoCapitalize={"characters"}/>
+// <CustomTextInput placeholder={"Enter your phone number"} keyboardType={"phone-pad"}/>
+
+//  </View> 
+
+ <MyButton title="click" message="change" say="hello"/> 
+
 
   );
+
   };
 
 const styles = StyleSheet.create({
