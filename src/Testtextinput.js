@@ -25,7 +25,7 @@
    return (
      <View>
       
-       {/* <Text style={{fontSize:22,textAlign:'center'}}>Welcome</Text> */}
+       <Text style={{fontSize:22,textAlign:'center'}}>Welcome</Text>
 
        <TextInput
          style={styles.Registration}   

@@ -75,6 +75,8 @@ import User from './src/Flatlist';
 import Screen from './src/flatlistscreen';
 import practicescreen from './src/Practicescreen';
 import Practicescreen from './src/Practicescreen';
+import TouchableOpacity from './src/TouchableOpacity';
+import TouchableComp from './src/TouchableOpacity';
 
 
 
@@ -90,8 +92,9 @@ import Practicescreen from './src/Practicescreen';
 
 const App = () => {
   return (
-     
-  <Practicescreen/>
+    
+ <TouchableComp/>
+
   );
   };
 
