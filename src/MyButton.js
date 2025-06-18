@@ -19,38 +19,38 @@ import React from 'react'
 // }
 
 
-const MyButton =(props)=>{
+// const MyButton =(props)=>{
 
-    return(
-    <View>
-<Text>MyButton</Text>
+//     return(
+//     <View>
+// <Text>MyButton</Text>
 
-        <TouchableOpacity style={styles.button} onPress={()=>Alert.alert("This is product")}>
+//         <TouchableOpacity style={styles.button} onPress={()=>Alert.alert("This is product")}>
               
-           <Text style={styles.text}>               
-              {/* {props.title} */}
-              {props.message}
-           </Text>
+//            <Text style={styles.text}>               
+//               {props.title}
+//               {props.message}
+//            </Text>
         
-        </TouchableOpacity>
-    </View>
-    )
-}
+//         </TouchableOpacity>
+//     </View>
+//     )
+// }
 
-export default MyButton
+// export default MyButton
 
-const styles = StyleSheet.create({
+// const styles = StyleSheet.create({
 
-    button:{
+//     button:{
         
-        backgroundColor:"blue",
-        height:50,
-        justifyContent:"center",
-        alignItems:"center"
+//         backgroundColor:"blue",
+//         height:50,
+//         justifyContent:"center",
+//         alignItems:"center"
 
-    },
-    text:{
-         fontSize:18,
-         color:"white"
-    }
-})
+//     },
+//     text:{
+//          fontSize:18,
+//          color:"white"
+//     }
+// })

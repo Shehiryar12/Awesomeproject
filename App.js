@@ -81,6 +81,9 @@ import CustomTextInput from './src/CustomTextInput';
 import { watchFolders } from './metro.config';
 import Propstwo from './src/Propstwo';
 import MyButton from './src/MyButton';
+import PropImage from './src/PropImage';
+import MyButtons from './src/PropImage';
+import PropButton from './src/PropButton';
 
 
 
@@ -97,9 +100,7 @@ const App = () => {
 
 //  </View> 
 
- <MyButton title="click" message="change" say="hello"/> 
-
-
+<MyButtons title="Tab on it"/>
   );
 
   };
